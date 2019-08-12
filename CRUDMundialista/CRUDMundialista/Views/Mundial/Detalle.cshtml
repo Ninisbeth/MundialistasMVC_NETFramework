@@ -1,0 +1,17 @@
+﻿@model CRUDMundialista.Models.Equipo
+@{
+    ViewBag.Title = "Detalle";
+}
+<h1>@Model.Nombre</h1>
+
+<img src="~/Content/Images/@Model.Imagen"/>
+
+<h2>Listado de Jugadores</h2>
+
+<ul>
+    @foreach (var jugador in Model.Jugadores)
+    {
+        <li>@jugador.Nombre ( @jugador.Posicion )</li>
+    }
+</ul>
+

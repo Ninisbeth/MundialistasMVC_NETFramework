@@ -1,0 +1,21 @@
+﻿@model List<CRUDMundialista.Models.Equipo>
+@{
+    ViewBag.Title = "Equipos";
+}
+
+<h2>Equipos Mundialistas</h2>
+<hr />
+
+
+    @foreach (var equipo in Model)
+    {
+        <div style="float:left; width:33%; margin:20px; text-align:center">
+            <img src="~/Content/Images/@equipo.Imagen" />
+            <br />
+            <a href="@Url.Action("Detalle","Mundial", new { idEquipo = equipo.IdEquipo })">@equipo.Nombre</a>
+        </div>       
+    }
+<div style="clear:both">
+
+</div>
+
