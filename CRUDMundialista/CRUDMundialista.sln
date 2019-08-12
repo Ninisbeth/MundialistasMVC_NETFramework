@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDMundialista", "CRUDMundialista\CRUDMundialista.csproj", "{F9C306EC-706B-4797-9299-59AC02E7116E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9C306EC-706B-4797-9299-59AC02E7116E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C306EC-706B-4797-9299-59AC02E7116E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C306EC-706B-4797-9299-59AC02E7116E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C306EC-706B-4797-9299-59AC02E7116E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8BF986E-F5F5-4125-A093-FB166DCB853F}
+	EndGlobalSection
+EndGlobal
